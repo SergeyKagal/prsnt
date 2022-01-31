@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>Accessibility</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>accessibility</h1>
+        </section>
+        <section
+          data-background-image="assets/usabil.png"
+          data-background-size="50%"
+        ></section>
+        <section
+          data-background-image="assets/WebACCES.webp"
+          data-background-size="70%"
+        ></section>
+        <section
+          data-background-image="assets/accessibility.png"
+          data-background-size="80%"
+          data-state="make-it-pop"
+        >
+          About disabilities
+        </section>
+        <section>
+          <h2>Visual impairments</h2>
+          <section>Total / partial blindness</section>
+          <section>Color blindness</section>
+        </section>
+        <section><h2>Hearing impairments</h2></section>
+        <section>
+          <h2>Mobility impairments</h2>
+          <section>Paralysis</section>
+          <section>Limblessness</section>
+          <section>Tremor</section>
+        </section>
+        <section>
+          <h2>Who ?</h2>
+        </section>
+        <section>
+          <section>UX / UI designers</section>
+          <section>Programmers</section>
+          <section>Testers</section>
+        </section>
+        <section><h2>Why ?</h2></section>
+        <section>
+          <section>Empathy</section>
+          <section>Compititive advantage</section>
+          <section>Low</section>
+        </section>
+        <section>How to implement accessibility?</section>
+        <section>
+          <ul>
+            <li>WCAG</li>
+            <li>Section 508</li>
+          </ul>
+        </section>
+        <section>
+          <h3>wcag</h3>
+          <ul>
+            <li>Perceivable</li>
+            <li>Operable</li>
+            <li>Understandable</li>
+            <li>Robust</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Assistive technologies used for web browsing</h3>
+          <ul>
+            <li>Screen reader software</li>
+            <li>Braille terminals</li>
+            <li>Screen magnification software</li>
+            <li>Keyboard overlays</li>
+            <li>Access to subtitled</li>
+            <li>Semantic markup</li>
+          </ul>
+        </section>
+        <section
+          data-background-image="assets/accesabl.png"
+          data-background-size="60%"
+        ></section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
